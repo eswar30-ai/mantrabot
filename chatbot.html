@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Modal</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background: #fcf1eb;
+            font-family: sans-serif;
+        }
+
+        .img-close {
+            margin-bottom: 42px;
+            background: transparent;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        .img-close img:hover {
+            opacity: 0.8;
+            transform: scale(1.1);
+        }
+
+
+
+
+        .patchmantra_logo {
+            width: 60%;
+            display: block;
+        }
+
+        .centerlogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .centerlogo h5 {
+            font-size: calc(10vw * 0.4);
+            text-align: center;
+            font-weight: 700;
+            color: #bc8365;
+        }
+
+        .centerlogo h6 {
+            font-size: calc(12vw * 0.4);
+            text-align: center;
+            font-weight: bold;
+            color: #613323;
+        }
+
+
+
+        .chatbot-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 32px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        #chatbot-frame {
+            width: 100%;
+            height: 68vh;
+            border: none;
+            display: none;
+        }
+
+        .modal-dialog {
+            margin-right: -36px !important;
+        }
+
+        .main-header {
+            padding-left: 0.4rem;
+            color: #000000;
+            background-color: #fff;
+            box-shadow: var(--shadow-lg);
+            width: 26rem;
+        }
+
+        .main-header h1 {
+            margin: 0;
+            font-size: 1.2rem !important;
+            font-weight: 700;
+            color: #000000;
+        }
+
+        .confirm-actions {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .mb-0 {
+            color: rgba(17, 7, 48, 0.6);
+            font-size: 13px !important;
+
+        }
+
+        .main-header p {
+            margin: var(--space-8) 0 0 0;
+            opacity: 0.9;
+            font-size: var(--font-size-sm);
+        }
+
+        .patch_mantra_container {
+            overflow: hidden;
+        }
+
+        .modal-content {
+            width: 88% !important;
+        }
+
+        .confirm-overlay {
+            position: fixed;
+            padding: 3%;
+            border-radius: 8px;
+            top: 40vh;
+            right: 4rem;
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .confirm-overlay {
+            pointer-events: auto;
+        }
+
+        .confirm-overlay * {
+            pointer-events: auto;
+        }
+
+        @media (max-width: 768px) {
+            .confirm-overlay {
+                top: 40% !important;
+                right: 0 !important;
+                left: 0;
+                margin: 0 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="patch_mantra_container">
+        <div class="centerlogo text-center mt-5">
+            <img class="patchmantra_logo" src="https://www.patchmantra.com/assets/img/patch_mantra_logo.svg?Version=0"
+                alt="patch_mantra_logo">
+            <h5>Your friendly guide to all things.</h5>
+            <h6>Patchmantra</h6>
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="chatbot-btn" data-bs-toggle="modal" data-bs-target="#chatbotModal">
+            <img src="static/images/chatboat.png" alt="Chatbot Icon" loading="eager" />
+        </button>
+        <div class="position-relative modals">
+            <!-- Modal -->
+            <div class="modal fade" id="chatbotModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="chatbotModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="static/images/chatboat.png" class="bot-icon-img" />
+
+                            <div class="main-header">
+                                <h1 class="modal-title" id="chatbotModalLabel">Mantra Bot</h1>
+                                <p class="mb-0">Your trusted companion for patch therapy</p>
+                            </div>
+
+                            <button type="button" class="img-close" id="openConfirm">
+                                <img src="static/icons/cross-circle.png" width="24">
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <iframe id="chatbot-frame" title="Chatbot"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="confirmOverlay" class="confirm-overlay d-none">
+                <div class="confirm-box">
+                    <p class="text-light">Are you sure, you want to end this session?</p>
+                    <div class="confirm-actions">
+                        <button class="btn btn-secondary" id="cancelClose">No</button>
+                        <button class="btn btn-danger" id="confirmClose">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const chatbotModalEl = document.getElementById('chatbotModal');
+            const chatbotModal = bootstrap.Modal.getOrCreateInstance(chatbotModalEl);
+            const iframe = document.getElementById('chatbot-frame');
+            const iframeSrc = "index.html";
+
+            const confirmOverlay = document.getElementById('confirmOverlay');
+            const openConfirm = document.getElementById('openConfirm');
+            const cancelClose = document.getElementById('cancelClose');
+            const confirmClose = document.getElementById('confirmClose');
+
+            chatbotModalEl.addEventListener('shown.bs.modal', () => {
+                iframe.src = iframeSrc;
+                iframe.style.display = "block";
+            });
+
+            chatbotModalEl.addEventListener('hidden.bs.modal', () => {
+                iframe.src = "";
+                iframe.style.display = "none";
+            });
+
+            // ❌ Open confirm overlay
+            openConfirm.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+
+                // 🔧 FIX: bring overlay above modal WITHOUT CSS change
+                confirmOverlay.classList.remove('d-none');
+                iframe.style.pointerEvents = 'none';
+            });
+
+            // NO → close only overlay
+            cancelClose.addEventListener('click', () => {
+                confirmOverlay.classList.add('d-none');
+                confirmOverlay.removeAttribute('style');
+                iframe.style.pointerEvents = 'auto';
+
+            });
+
+            // YES → close overlay + modal
+            confirmClose.addEventListener('click', () => {
+                confirmOverlay.classList.add('d-none');
+                confirmOverlay.removeAttribute('style');
+                iframe.style.pointerEvents = 'auto';
+                chatbotModal.hide();
+            });
+        });
+      
+    </script>
+
+
+</body>
+
+</html>

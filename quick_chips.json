@@ -1,0 +1,566 @@
+{
+  "Consumer": {
+    "Nitof": {
+      "therapeutic_purpose": "Quit smoking",
+      "active_ingredient": "Nicotine",
+      "Product Information & Clinical Background": {
+        "qa_pairs": [
+          {
+            "question": "What is Nitof nicotine patch?",
+            "answer": "Nitof is a nicotine transdermal patch designed for quit smoking. It delivers nicotine through the skin to reduce cravings and withdrawal symptoms. Unlike oral methods, it provides consistent nicotine levels for up to 72 hours with a single application, making it ideal for quitting tobacco."
+          },
+          {
+            "question": "How does Nitof work?",
+            "answer": "Nitof works by delivering a controlled amount of nicotine through the skin directly into your bloodstream. This maintains steady nicotine levels, reducing withdrawal symptoms like irritability, anxiety, and intense cravings. It helps your body adjust gradually to lower nicotine levels during your quit journey."
+          },
+          {
+            "question": "What are the available strengths?",
+            "answer": "Nitof is available in 3 strengths: Nitof 21 mg (for heavy smokers), Nitof 14 mg (moderate smokers), and Nitof 7 mg (light smokers). Each patch provides nicotine for 72 hours, making it ideal for structured quit plans."
+          }
+        ]
+      },
+      "Usage & Application": {
+        "qa_pairs": [
+          {
+            "question": "How do I apply Nitof patch?",
+            "answer": "1. Clean and dry your skin (upper arm, chest, or back). 2. Apply one patch every 3 days. 3. Rotate application sites to prevent irritation. 4. Wash hands before and after application. 5. The patch is water-resistant and stays on during bathing."
+          },
+          {
+            "question": "How long does one patch last?",
+            "answer": "Each Nitof patch lasts for 72 hours (3 days). This 72-hour format is more convenient than daily patches, reducing the frequency of application and helping you stick to your quit plan."
+          },
+          {
+            "question": "Can I wear Nitof while bathing?",
+            "answer": "Yes, Nitof is water-resistant and designed to stay in place during bathing, swimming, and daily activities. If a patch comes loose, replace it with a fresh one and continue your regular schedule."
+          }
+        ]
+      },
+      "Quit smoking Plan": {
+        "qa_pairs": [
+          {
+            "question": "What is the recommended quit plan?",
+            "answer": "Follow the 12-week structured approach: Weeks 1-4: Nitof 21 mg daily, Weeks 5-8: Nitof 14 mg daily, Weeks 9-12: Nitof 7 mg daily. This gradual step-down helps your body adjust and improves success rates."
+          },
+          {
+            "question": "Why is the step-down approach effective?",
+            "answer": "Gradual dose reduction allows your body to adapt to lower nicotine levels gradually. This reduces breakthrough cravings and withdrawal symptoms compared to quitting suddenly, increasing your chances of long-term success."
+          },
+          {
+            "question": "What if I slip and smoke?",
+            "answer": "One slip-up doesn't mean failure. Continue using Nitof as scheduled. Analyze what triggered the slip, develop a prevention strategy, and recommit to your goal. Many successful quitters had lapses before achieving complete cessation."
+          }
+        ]
+      },
+      "Advantages & Benefits": {
+        "qa_pairs": [
+          {
+            "question": "What are the main advantages of Nitof?",
+            "answer": "• Apply once every 3 days (not daily) • Consistent, steady nicotine delivery • No oral triggers like taste or smell • Discreet and easy to carry • Water-resistant design • Structured quit approach • Clinically proven effectiveness"
+          },
+          {
+            "question": "How effective is Nitof for quitting smoking?",
+            "answer": "Studies show nicotine patches increase quit rates by 2-3x compared to placebo. Combined with behavioral support, success rates improve significantly. Nitof is proven to reduce cravings and withdrawal symptoms effectively."
+          },
+          {
+            "question": "Will using Nitof affect my daily routine?",
+            "answer": "No, Nitof is designed to fit seamlessly into your daily life. Apply once every 3 days, and the patch works discretely under your clothing. It requires minimal attention or maintenance."
+          }
+        ]
+      },
+      "Safety & Considerations": {
+        "qa_pairs": [
+          {
+            "question": "What are possible side effects?",
+            "answer": "Common side effects: mild skin irritation at application site, vivid dreams (if worn overnight), headache, nausea. Most are temporary. Remove patch if severe irritation occurs and consult your doctor."
+          },
+          {
+            "question": "Can I continue smoking while using Nitof?",
+            "answer": "It's best to quit completely, but some consumers use Nitof while reducing cigarettes. Smoking + patch increases nicotine levels—watch for nausea, dizziness. Set a quit date and aim for complete cessation."
+          },
+          {
+            "question": "Who should not use Nitof?",
+            "answer": "Avoid if: recent heart attack, serious heart rhythm problems, pregnant or breastfeeding, skin allergies to nicotine patches, using other nicotine products without doctor advice."
+          }
+        ]
+      }
+    },
+    "Hetriva": {
+      "therapeutic_purpose": "Dementia & Cognitive Support",
+      "active_ingredient": "Rivastigmine",
+      "Product Information": {
+        "qa_pairs": [
+          {
+            "question": "What is Hetriva patch?",
+            "answer": "Hetriva is a rivastigmine transdermal patch for Alzheimer's disease and dementia. It provides steady cholinesterase inhibition to improve memory, thinking, and daily function with once-weekly application."
+          },
+          {
+            "question": "How does Hetriva work?",
+            "answer": "Hetriva inhibits acetylcholinesterase, increasing acetylcholine levels in the brain. This improves communication between nerve cells, helping with memory, attention, and daily activities in dementia consumers."
+          },
+          {
+            "question": "What are the available strengths?",
+            "answer": "Hetriva comes in 3 strengths: 4.6 mg/24h, 9.5 mg/24h, 13.3 mg/24h. Each patch lasts 24 hours. Weekly patches (higher dose) provide continuous treatment with less frequent application."
+          }
+        ]
+      },
+      "Usage Instructions": {
+        "qa_pairs": [
+          {
+            "question": "How do I apply Hetriva?",
+            "answer": "Apply to clean, dry, hairless skin on upper back, upper arm, or chest. Press firmly for 30 seconds. Change patch daily at same time. Rotate sites. Can shower/swim with patch on."
+          },
+          {
+            "question": "Can I cut the patch?",
+            "answer": "No, never cut Hetriva patches. Cutting destroys the controlled-release mechanism and can cause overdose. Always use whole patches as prescribed."
+          },
+          {
+            "question": "What if I forget a dose?",
+            "answer": "Apply patch as soon as remembered. If it's time for next dose, skip missed one—don't double up. Apply next patch at regular time."
+          }
+        ]
+      },
+      "Benefits & Expectations": {
+        "qa_pairs": [
+          {
+            "question": "What benefits can I expect?",
+            "answer": "Hetriva may improve memory, attention, and ability to perform daily activities. Benefits typically seen in 4-12 weeks. It slows cognitive decline but doesn't cure dementia."
+          },
+          {
+            "question": "How long should I use Hetriva?",
+            "answer": "Continue as long as benefits outweigh side effects and doctor recommends. Regular assessment needed. Treatment often long-term for dementia management."
+          },
+          {
+            "question": "Will Hetriva cure dementia?",
+            "answer": "No, Hetriva manages symptoms but doesn't cure dementia. It helps maintain cognitive function longer, improving quality of life for consumers and caregivers."
+          }
+        ]
+      },
+      "Safety Information": {
+        "qa_pairs": [
+          {
+            "question": "What are common side effects?",
+            "answer": "Most common: nausea, vomiting, diarrhea, loss of appetite, dizziness, headache, skin irritation at patch site. Usually mild and decrease over time."
+          },
+          {
+            "question": "What are serious side effects?",
+            "answer": "Serious but rare: severe nausea/vomiting, fainting, slow heartbeat, urinary retention, seizures, severe skin rash. Seek immediate medical help if these occur."
+          },
+          {
+            "question": "Who should avoid Hetriva?",
+            "answer": "Avoid if: allergy to rivastigmine, current bladder obstruction, severe asthma/COPD, recent GI bleeding, pregnant or breastfeeding without doctor advice."
+          }
+        ]
+      }
+    },
+    "Trans-D": {
+      "therapeutic_purpose": "Acute Pain Relief",
+      "active_ingredient": "Diclofenac",
+      "Product Information": {
+        "qa_pairs": [
+          {
+            "question": "What is Trans-D patch?",
+            "answer": "Trans-D is a diclofenac transdermal patch for acute pain relief (sprains, strains, sports injuries). It delivers targeted NSAID therapy directly to painful area, minimizing stomach side effects."
+          },
+          {
+            "question": "How does Trans-D work?",
+            "answer": "Diclofenac reduces inflammation and pain by inhibiting COX enzymes at the injury site. Transdermal delivery provides high local concentration with lower systemic absorption than oral NSAIDs."
+          },
+          {
+            "question": "When should I use Trans-D?",
+            "answer": "Use for acute musculoskeletal pain: sprains, strains, tendonitis, sports injuries, post-surgical pain, acute back pain. Maximum 14 days continuous use."
+          }
+        ]
+      },
+      "Usage Instructions": {
+        "qa_pairs": [
+          {
+            "question": "How do I apply Trans-D?",
+            "answer": "Apply to clean, dry, intact skin over painful area. Press firmly 30 seconds. Leave on 12 hours, then remove. May reapply after 12 hours if needed. Maximum 2 patches/day."
+          },
+          {
+            "question": "Can I use heat/ice with Trans-D?",
+            "answer": "Avoid heat (heating pads, hot baths) on patch area—increases diclofenac absorption. Ice is okay. Remove patch before MRI/CT scans."
+          },
+          {
+            "question": "How long can I use Trans-D?",
+            "answer": "Maximum 14 days for acute pain. If pain persists >7 days or worsens, stop use and consult doctor. Not for chronic pain management."
+          }
+        ]
+      },
+      "Benefits": {
+        "qa_pairs": [
+          {
+            "question": "Why choose Trans-D over oral painkillers?",
+            "answer": "• Lower stomach side effects • Targeted delivery to pain site • No first-pass liver metabolism • Faster onset at injury site • Convenient once/twice daily dosing"
+          },
+          {
+            "question": "How quickly does it work?",
+            "answer": "Pain relief typically starts within 1-2 hours, peaks at 4-6 hours. Continue 3-7 days for optimal inflammation reduction."
+          },
+          {
+            "question": "Can I combine with other treatments?",
+            "answer": "Yes—combine with rest, ice, compression, elevation (RICE). May use with paracetamol. Avoid other NSAIDs. Physical therapy safe after acute phase."
+          }
+        ]
+      },
+      "Safety": {
+        "qa_pairs": [
+          {
+            "question": "What are common side effects?",
+            "answer": "Application site reactions (itching, redness), mild nausea. Usually temporary. Less GI upset than oral NSAIDs."
+          },
+          {
+            "question": "Who should avoid Trans-D?",
+            "answer": "Avoid if: NSAID allergy, asthma triggered by aspirin/NSAIDs, third trimester pregnancy, active peptic ulcer, severe kidney/liver disease."
+          },
+          {
+            "question": "What if skin becomes irritated?",
+            "answer": "Remove patch immediately. Wash area with soap/water. Resume with new patch on different skin area. If severe rash, stop use and consult doctor."
+          }
+        ]
+      }
+    },
+    "K-Plast": {
+      "therapeutic_purpose": "Chronic Pain Relief",
+      "active_ingredient": "Ketoprofen",
+      "Product Information": {
+        "qa_pairs": [
+          {
+            "question": "What is K-Plast?",
+            "answer": "K-Plast is a ketoprofen transdermal patch for chronic musculoskeletal pain (osteoarthritis, rheumatoid arthritis, fibromyalgia, chronic back pain). Provides 24-hour continuous anti-inflammatory relief."
+          },
+          {
+            "question": "How does K-Plast work?",
+            "answer": "Ketoprofen inhibits COX-1/COX-2 enzymes, reducing inflammation and pain at source. Transdermal delivery provides sustained local effect with minimal systemic exposure."
+          },
+          {
+            "question": "What conditions does K-Plast treat?",
+            "answer": "Chronic conditions: osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, chronic low back pain, fibromyalgia, tendonitis, bursitis, chronic soft tissue rheumatism."
+          }
+        ]
+      },
+      "Usage": {
+        "qa_pairs": [
+          {
+            "question": "How do I apply K-Plast?",
+            "answer": "Apply one patch daily to clean, dry, intact skin over most painful area (lower back, hip, knee, shoulder). Press firmly 30 seconds. Leave on 24 hours. Rotate sites daily."
+          },
+          {
+            "question": "How long can I use K-Plast?",
+            "answer": "Safe for long-term use (months/years) in chronic pain when monitored by doctor. Regular assessment of benefits vs. side effects required."
+          },
+          {
+            "question": "Can I shower with K-Plast?",
+            "answer": "Yes, waterproof. Normal showering/bathing okay. Avoid hot tubs/saunas (increased absorption). Pat dry gently if wet—don't rub."
+          }
+        ]
+      },
+      "Benefits": {
+        "qa_pairs": [
+          {
+            "question": "What are K-Plast advantages?",
+            "answer": "• 24-hour continuous relief • Targeted delivery, minimal stomach effects • Steady-state drug levels • Improves function/mobility • Reduces oral NSAID need • Long-term safety profile"
+          },
+          {
+            "question": "How effective is K-Plast for chronic pain?",
+            "answer": "Clinical studies show 50-70% pain reduction in osteoarthritis consumers. Improves morning stiffness, joint function, sleep quality. Better compliance than oral NSAIDs."
+          },
+          {
+            "question": "When will I feel improvement?",
+            "answer": "Pain relief within 1-2 weeks. Maximum benefit 4-6 weeks. Continue even if initial improvement slow—cumulative anti-inflammatory effect."
+          }
+        ]
+      },
+      "Safety": {
+        "qa_pairs": [
+          {
+            "question": "What are common side effects?",
+            "answer": "Application site reactions (5-10%): mild redness, itching. Systemic: rare headache, nausea. Much lower GI risk than oral NSAIDs."
+          },
+          {
+            "question": "Who should avoid K-Plast?",
+            "answer": "Avoid if: NSAID allergy, third trimester pregnancy, active peptic ulcer, severe kidney/heart failure, uncontrolled hypertension."
+          },
+          {
+            "question": "Can I use with other medications?",
+            "answer": "Safe with paracetamol. Avoid other NSAIDs. Compatible with antidepressants, antihypertensives, statins. Monitor with diuretics, blood thinners."
+          }
+        ]
+      }
+    }
+  },
+  "Doctor": {
+    "Nitof": {
+      "therapeutic_purpose": "Smoking Cessation",
+      "active_ingredient": "Nicotine",
+      "Consumer Selection": {
+        "qa_pairs": [
+          {
+            "question": "Which consumers benefit most from Nitof?",
+            "answer": "• Heavy smokers (>10 cigs/day) • Consumers with strong withdrawal symptoms • Those failed with cold turkey or oral NRT • Motivated to quit with medical support • No contraindications to nicotine"
+          },
+          {
+            "question": "What are contraindications?",
+            "answer": "Absolute: recent MI (<2 weeks), serious arrhythmias, hyperthyroidism. Relative: skin disease, pregnancy (unless benefits outweigh risks), concurrent smoking + patch (monitor)."
+          },
+          {
+            "question": "How to assess nicotine dependence?",
+            "answer": "Use Fagerström Test: score ≥6 = high dependence (start 21mg). Time to first cigarette <30 min = higher dose needed. Previous quit attempts with severe withdrawal = patch candidate."
+          }
+        ]
+      },
+      "Dosing & Duration": {
+        "qa_pairs": [
+          {
+            "question": "Recommended dosing schedule?",
+            "answer": "Week 1-6: 21mg/24h, Week 7-9: 14mg/24h, Week 10-12: 7mg/24h. Total 12 weeks. May extend step 1 if cravings persist."
+          },
+          {
+            "question": "When to use combination therapy?",
+            "answer": "Persistent cravings despite patch: add short-acting NRT (gum/lozenge) PRN. Improves quit rates by 30-50%. Monitor total nicotine exposure."
+          },
+          {
+            "question": "Duration of therapy?",
+            "answer": "Standard: 12 weeks. Extended: up to 24 weeks if benefits clear. Abrupt cessation increases relapse risk. Taper gradually."
+          }
+        ]
+      },
+      "Monitoring & Follow-up": {
+        "qa_pairs": [
+          {
+            "question": "What to monitor during treatment?",
+            "answer": "• CO/cotinine levels at week 4, 8, 12 • Subjective cravings/withdrawal • Smoking lapse frequency • Side effects (skin, sleep) • Behavioral progress"
+          },
+          {
+            "question": "When to reassess therapy?",
+            "answer": "Week 2: tolerability/side effects. Week 4: efficacy (cravings reduction). Week 8: smoking status. Week 12: complete cessation achieved?"
+          },
+          {
+            "question": "Management of nicotine toxicity?",
+            "answer": "Symptoms: nausea, vomiting, dizziness, palpitations. Action: remove patch, monitor vitals, supportive care. Usually self-limiting."
+          }
+        ]
+      },
+      "Evidence & Guidelines": {
+        "qa_pairs": [
+          {
+            "question": "What is the evidence for patch efficacy?",
+            "answer": "Meta-analysis: patches double quit rates vs placebo (17% vs 9% at 6 months). Combination therapy: 25% success. Long-term (>6 months): 15-20% abstinence."
+          },
+          {
+            "question": "NICE/GOLD guidelines?",
+            "answer": "First-line NRT. Combination preferred for high dependence. Minimum 12 weeks + behavioral support. Consider varenicline/bupropion if NRT fails."
+          },
+          {
+            "question": "Special populations?",
+            "answer": "Pregnancy: 14mg preferred, monitor fetus. CVD: safe if stable. Mental illness: monitor mood, safe with antidepressants."
+          }
+        ]
+      }
+    },
+    "Hetriva": {
+      "therapeutic_purpose": "Dementia & Cognitive Support",
+      "active_ingredient": "Rivastigmine",
+      "Consumer Selection": {
+        "qa_pairs": [
+          {
+            "question": "Which dementia consumers benefit most?",
+            "answer": "• Mild-moderate Alzheimer's (MMSE 10-26) • Vascular dementia with cholinergic deficit • Lewy body dementia (without severe hallucinations) • Parkinson's disease dementia"
+          },
+          {
+            "question": "When to initiate cholinesterase inhibitors?",
+            "answer": "Mild-moderate AD: MMSE 10-26. Functional decline despite optimized non-drug therapy. Caregiver burden significant. Expected survival >2 years."
+          },
+          {
+            "question": "Contraindications?",
+            "answer": "Absolute: hypersensitivity. Relative: severe hepatic impairment, sick sinus syndrome, urinary retention, uncontrolled asthma/COPD."
+          }
+        ]
+      },
+      "Dosing & Titration": {
+        "qa_pairs": [
+          {
+            "question": "Recommended titration schedule?",
+            "answer": "Week 1-2: 4.6mg/24h, Week 3-4: 9.5mg/24h, Week 5+: 13.3mg/24h (target). Slower titration reduces GI side effects."
+          },
+          {
+            "question": "Patch vs oral conversion?",
+            "answer": "4.6mg patch ≈ 3mg BID oral, 9.5mg patch ≈ 4.5mg BID, 13.3mg patch ≈ 6mg BID. Patch preferred for compliance, steady-state levels."
+          },
+          {
+            "question": "When to down-titrate?",
+            "answer": "Intolerable GI effects, weight loss >10%, bradycardia <50 bpm, behavioral worsening. Reduce to previous tolerated dose."
+          }
+        ]
+      },
+      "Monitoring": {
+        "qa_pairs": [
+          {
+            "question": "What assessments at follow-up?",
+            "answer": "• MMSE/ADAS-cog every 3-6 months • ADL/IADL function • Caregiver global impression • Weight/BMI • ECG if cardiac symptoms • Skin assessment"
+          },
+          {
+            "question": "When to discontinue?",
+            "answer": "Severe AD (MMSE <10), life expectancy <6 months, no benefit after 6-12 months trial, intolerable side effects despite titration."
+          },
+          {
+            "question": "Drug interactions?",
+            "answer": "Increased cholinergic effects with other ChEIs. Anticholinergics reduce efficacy. NSAIDs may increase GI risk. Monitor with beta-blockers."
+          }
+        ]
+      },
+      "Evidence": {
+        "qa_pairs": [
+          {
+            "question": "Efficacy data?",
+            "answer": "MMSE improvement: +1.5-2.5 points at 6 months vs placebo. ADL benefit: +2-3 points. Delays nursing home placement by 6-12 months. Caregiver time savings: 45 min/day."
+          },
+          {
+            "question": "Patch vs oral evidence?",
+            "answer": "IDEAL study: equivalent efficacy, better tolerability (50% less nausea). 24% fewer treatment discontinuations. Steady-state preferred for fluctuating dementia."
+          },
+          {
+            "question": "Combination therapy?",
+            "answer": "Memantine + ChEI: modest additional benefit in moderate-severe AD. Consider after monotherapy failure. No increased adverse events."
+          }
+        ]
+      }
+    },
+    "Trans-D": {
+      "therapeutic_purpose": "Acute Pain Relief",
+      "active_ingredient": "Diclofenac",
+      "Consumer Selection": {
+        "qa_pairs": [
+          {
+            "question": "Best indications for Trans-D?",
+            "answer": "Acute soft tissue injuries, ankle sprains, acute low back pain, post-surgical pain, acute gout flares, sports injuries, acute shoulder pain."
+          },
+          {
+            "question": "Duration limit?",
+            "answer": "Maximum 14 days continuous use. Reassess at 7 days. If no improvement, investigate underlying pathology."
+          },
+          {
+            "question": "Contraindications?",
+            "answer": "Absolute: NSAID allergy, 3rd trimester pregnancy, active PUD. Relative: asthma (10% cross-reactivity), CKD stage 4-5, heart failure."
+          }
+        ]
+      },
+      "Dosing": {
+        "qa_pairs": [
+          {
+            "question": "Recommended regimen?",
+            "answer": "1-2 patches daily over painful area, max 14 days. 12-hour on/off cycling reduces skin reactions. Alternate sites daily."
+          },
+          {
+            "question": "Systemic exposure?",
+            "answer": "10% of oral diclofenac dose. Therapeutic tissue levels maintained 12-24 hours. Minimal first-pass metabolism."
+          },
+          {
+            "question": "Combination therapy?",
+            "answer": "Paracetamol + topical NSAID = opioid-sparing. Muscle relaxants for spasm. Avoid oral NSAIDs (additive GI/CV risk)."
+          }
+        ]
+      },
+      "Monitoring": {
+        "qa_pairs": [
+          {
+            "question": "What to monitor?",
+            "answer": "• Pain scores VAS/NRS daily • Application site weekly • Function improvement (ROM, weight-bearing) • GI symptoms • Renal function if comorbidities"
+          },
+          {
+            "question": "Red flags for discontinuation?",
+            "answer": "No improvement >7 days, worsening pain, skin ulceration, systemic symptoms, new neurological signs."
+          },
+          {
+            "question": "When to investigate further?",
+            "answer": "Persistent pain >2 weeks, night pain, weight loss, fever, neurological deficit, history malignancy/infection."
+          }
+        ]
+      },
+      "Evidence": {
+        "qa_pairs": [
+          {
+            "question": "Efficacy vs oral NSAIDs?",
+            "answer": "Meta-analysis: equivalent pain relief to oral diclofenac 50mg TID. 60-70% responders at 7 days. Better local tolerability."
+          },
+          {
+            "question": "Safety advantage?",
+            "answer": "GI events: 2.5% vs 15% oral. CV risk equivalent. Skin reactions: 10-15%, usually mild/transient."
+          },
+          {
+            "question": "Guidelines?",
+            "answer": "NICE: first-line topical NSAID for knee/hip OA. SIGN: acute soft tissue injury. Consider paracetamol co-administration."
+          }
+        ]
+      }
+    },
+    "K-Plast": {
+      "therapeutic_purpose": "Chronic Pain Relief",
+      "active_ingredient": "Ketoprofen",
+      "Consumer Selection": {
+        "qa_pairs": [
+          {
+            "question": "Primary indications?",
+            "answer": "Chronic OA (knee, hip, hand), RA, ankylosing spondylitis, chronic low back pain, fibromyalgia, rotator cuff tendinopathy."
+          },
+          {
+            "question": "Ideal candidates?",
+            "answer": "• Poor oral NSAID tolerance • High GI risk • Multiple joint involvement • Poor compliance with oral meds • Long-term therapy needed"
+          },
+          {
+            "question": "Contraindications?",
+            "answer": "Absolute: NSAID allergy, 3rd trimester pregnancy, active PUD. Relative: CKD 3+, CV disease, elderly (>75)."
+          }
+        ]
+      },
+      "Dosing & Administration": {
+        "qa_pairs": [
+          {
+            "question": "Recommended regimen?",
+            "answer": "1 patch daily over most painful joint/area. Rotate sites daily (back, abdomen, buttock, upper arm). Continuous 24-hour wear."
+          },
+          {
+            "question": "Titration needed?",
+            "answer": "No titration. Steady-state achieved day 3-5. Full anti-inflammatory effect 2-4 weeks."
+          },
+          {
+            "question": "Long-term use?",
+            "answer": "Safe 6-12 months with monitoring. Annual GI/CV/renal assessment. Periodic drug holidays (1-2 weeks) if tolerated."
+          }
+        ]
+      },
+      "Monitoring": {
+        "qa_pairs": [
+          {
+            "question": "Laboratory monitoring?",
+            "answer": "Baseline: CrCl, LFTs, BP. 3 months: renal function, BP, Hb. 6-12 months: full assessment. Annual thereafter."
+          },
+          {
+            "question": "Clinical monitoring?",
+            "answer": "• Pain VAS monthly x3, then quarterly • Function (WOMAC, HAQ) • Skin assessment weekly x4, then monthly • GI symptoms"
+          },
+          {
+            "question": "When to discontinue?",
+            "answer": "No benefit after 8-12 weeks, rising CrCl, new/worsening CV events, skin allergy, consumer preference."
+          }
+        ]
+      },
+      "Evidence & Guidelines": {
+        "qa_pairs": [
+          {
+            "question": "Efficacy data?",
+            "answer": "OA trials: 45-60% pain reduction vs 20% placebo. WOMAC improvement 30-40%. Superior to paracetamol, equivalent to oral NSAIDs."
+          },
+          {
+            "question": "Safety profile?",
+            "answer": "GI events: 1.5% vs 12% oral NSAIDs. Skin reactions: 8% (mostly mild). CV risk: equivalent to other topical NSAIDs."
+          },
+          {
+            "question": "Combination therapy?",
+            "answer": "K-Plast + paracetamol = 70% responders. + duloxetine/opioids for severe OA. + intra-articular steroids for flare control."
+          }
+        ]
+      }
+    }
+  }
+}

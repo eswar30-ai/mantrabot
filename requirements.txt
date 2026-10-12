@@ -1,0 +1,9 @@
+# PatchMantra Assistant Backend Requirements
+
+flask
+flask-cors
+groq
+python-dotenv
+mysql-connector-python
+waitress
+gunicorn; sys_platform != 'win32'

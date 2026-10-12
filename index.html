@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Mantra Bot</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- App Container -->
+    <div class="app-container">
+        <!-- Chat Container -->
+        <div class="chat-container" id="chat-container">
+            <!-- Messages will be rendered here dynamically -->
+            <!-- <img class="bot-icon" src="static/images/chatboat.png" alt="chatbot" width="32px" height="32px"> -->
+        </div>
+
+
+        <!-- Typing Animation - Hidden initially  -->
+        <div class="typing-indicator" id="typing-indicator" style="display: none;">
+            <div class="typing-dots">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Fixed Input Panel -->
+    <div class="input-panel" id="input-panel">
+        <div class="input-container" id="input-container">
+            <!-- <input type="text" id="user-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)"> -->
+            <textarea id="user-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)"
+                rows="3"></textarea>
+            <div class="input-widgets">
+                <div id="input-language-selector" style="display: block;">
+                    <select id="language-select" onchange="changeLanguage()">
+                        <option value="English">English</option>
+                        <option value="Hindi">हिन्दी</option>
+                        <option value="Telugu">తెలుగు</option>
+                    </select>
+                </div>
+
+                <!-- <button class="send-btn" onclick="sendMessage()" title="Send"></button> -->
+                <div class="btn-sv">
+                    <img class="send-btn" onclick="startVoiceInput()" src="static/icons/mic-icon.png" />
+                    <img class="send-btn" onclick="on_submit()" src="static/icons/send-icon.png" />
+                </div>
+            </div>
+        </div>
+        <div class="ai-disclaimer" id="ai-disclaimer">
+            <span>Mantra Bot can make mistakes. Verify important medical information with a doctor.</span>
+        </div>
+    </div>
+
+    <!-- Voice Modal -->
+    <div id="voice-modal" class="voice-modal" style="display: none;" onclick="stopVoiceInput()">
+        <div class="voice-modal-content" onclick="event.stopPropagation()">
+            <h3>🎤 Listening...</h3>
+            <div class="recording-animation">
+                <div class="pulse"></div>
+            </div>
+            <p>Speak clearly into your microphone</p>
+            <button onclick="stopVoiceInput()">Stop</button>
+        </div>
+    </div>
+
+    <template id="brand-selection-template">
+        <div class="brand-selection-container">
+            <div class="brand-intro">
+                <p>Choose the therapy you're interested in:</p>
+            </div>
+            <div class="brand-grid" id="brand-grid">
+                <!-- Brands will be injected here via JS -->
+            </div>
+        </div>
+    </template>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                sendMessage()
+                setTimeout(() => {
+                    if (document.activeElement) {
+                        document.activeElement.blur();
+                    }
+                }, 100);
+            }
+        });
+        function on_submit(){
+            sendMessage()
+            setTimeout(() => {
+                if (document.activeElement) {
+                    document.activeElement.blur();
+                }
+            }, 100);
+        }
+    </script>
+</body>
+
+</html>
